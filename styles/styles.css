@@ -5,12 +5,7 @@
 
 @font-face {
     font-family: "Source";
-    src: url(/assets/SourceSansPro-Light.otf);
-}
-
-.navAlign {
-    display: flex;
-    justify-content: center;
+    src: url(/assets/SourceSansPro-Regular.otf);
 }
 
 
@@ -40,17 +35,16 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 500px;
 
 }
 
-.myDiv {
+
+.myDiv{
     background: #000324;
     opacity: 0.8;
-    margin: auto;
-    width: 945px;
-    height: 232px;
-    padding: auto;
-
+    margin-top: 10%;
+    padding-bottom: 3%;
 }
 
 .bgBody {
@@ -76,22 +70,27 @@
 }
 
 .padMe {
-    padding-top: 100px;
+    padding-top: 50px;
+    font-size: 35px;
+    font-family: Dosis;
+}
+
+.padBot {
     padding-bottom: 100px;
 }
 
-.cardSize {
+.cardLeft {
+    float: left;
     width: 561px;
     height: 234px;
 }
 
-.bodyTextd {
-    color: white;
-    font-family: Source;
-    font-size: 16px;
-    text-align: center;
-
+.cardLeft {
+    float: right;
+    width: 561px;
+    height: 234px;
 }
+
 
 .bodyTextd35 {
     color: black;
@@ -111,6 +110,7 @@
     color: white;
     font-family: Source;
     font-size: 16px;
+    text-align: center;
 
 }
 
@@ -134,18 +134,29 @@
     padding-top: 50px;
 }
 
+.dText25 {
+    font-size: 25px;
+    font-family: Dosis;
+}
+
+.sText25 {
+    font-size: 16px;
+    font-family: Source;
+    color: #1F51A8;
+}
+
 .bgBlack {
     background-color: #000324;
+
+}
+.bgBlack2 {
+    background-color: #000324;
+    padding-bottom: 50px;
 
 }
 
 .rAlign {
 text-align: center;
-}
-
-.rSpace {
-    display: block;
-    justify-content: start;
 }
 
 .center {
@@ -155,5 +166,23 @@ text-align: center;
 
 .padThis {
     padding: 5px 5px 5px 5px;
+}
+
+.bgHamster {
+    background-image: url(/assets/hamsterreserve.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.rPad {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.pImage {
+    display: flex;
+    flex-direction: row-reverse;
 }
 
