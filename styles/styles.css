@@ -1,0 +1,159 @@
+@font-face {
+    font-family: "Dosis";
+    src: url(/assets/Dosis.ttf);
+}
+
+@font-face {
+    font-family: "Source";
+    src: url(/assets/SourceSansPro-Light.otf);
+}
+
+.navAlign {
+    display: flex;
+    justify-content: center;
+}
+
+
+.navBtn {
+    color: white;
+    opacity: 1;
+    font: normal normal normal 20px/26px Dosis;
+}
+
+.navBtns {
+    color: white;
+    border: 2px solid #E5FEFF;
+    opacity: 1;
+    font: normal normal normal 20px/26px Dosis;
+    letter-spacing: 0px;
+}
+
+
+.navLink {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bgHead {
+    display: flex;
+    background-image: url(/assets/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.myDiv {
+    background: #000324;
+    opacity: 0.8;
+    margin: auto;
+    width: 945px;
+    height: 232px;
+    padding: auto;
+
+}
+
+.bgBody {
+    display: flex;
+    background-image: url(/assets/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 738px;
+}
+
+.paddingTop {
+    padding-top: 20px
+}
+
+.bgBottom {
+    display: flex;
+    background-image: url(/assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.padMe {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.cardSize {
+    width: 561px;
+    height: 234px;
+}
+
+.bodyTextd {
+    color: white;
+    font-family: Source;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.bodyTextd35 {
+    color: black;
+    font-family: Dosis;
+    font-size: 35px;
+
+}
+
+.bodyText16b {
+    color: #1A1B26;
+    font-family: Source;
+    font-size: 16px;
+
+}
+
+.bodyText16 {
+    color: white;
+    font-family: Source;
+    font-size: 16px;
+
+}
+
+.bodyText20 {
+    color: white;
+    font-family: Source;
+    font-size: 20px;
+    font-weight: bold;
+}
+.bodyText35 {
+    color: white;
+    font-family: Dosis;
+    font-size: 35px;
+}
+
+.bodyText45 {
+    color: #E5FEFF;
+    font-family: Dosis;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.bgBlack {
+    background-color: #000324;
+
+}
+
+.rAlign {
+text-align: center;
+}
+
+.rSpace {
+    display: block;
+    justify-content: start;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.padThis {
+    padding: 5px 5px 5px 5px;
+}
+
