@@ -81,13 +81,8 @@
 .myDiv {
     background: #000324;
     opacity: 0.8;
-    /* margin-top: 11%;
-    padding-bottom: 3%; */
-
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin-top: 11%;
+    padding-bottom: 3%;
 }
 
 .bgBody {
