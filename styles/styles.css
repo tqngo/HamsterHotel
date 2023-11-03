@@ -63,10 +63,6 @@
 }
 
 
-
-
-
-
 .navLink {
     display: flex;
     justify-content: space-evenly;
@@ -142,13 +138,9 @@
     padding-bottom: 8px;
 }
 
-.padThis {
-    padding: 5px 5px 5px 5px;
-}
-
 .padMore {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 
@@ -203,11 +195,19 @@
 
 }
 
-.bText16 {
+.bText16b {
     color: #1A1B26;
     font-family: Source;
     font-size: 16px;
     font-weight: bold;
+    text-align: left;
+}
+
+.bText16 {
+    color: #1A1B26;
+    font-family: Source;
+    font-size: 16px;
+
 }
 
 
@@ -302,11 +302,11 @@
 
 
 
-.padLeft {
-    text-align: start;
-}
-
 .cardB {
     border-radius: 0;
     border: 0px;
+}
+
+.margBot {
+    margin-bottom: 125px;
 }
