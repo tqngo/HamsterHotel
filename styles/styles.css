@@ -21,20 +21,21 @@
     opacity: 1;
     font: normal normal normal 20px/26px Dosis;
     letter-spacing: 0px;
-} 
+}
 
-.navAlign{
+.navAlign {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.navAlign.collapse.show{
+.navAlign.collapse.show {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
-.navAlign.collapsing{
+
+.navAlign.collapsing {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -42,12 +43,13 @@
 
 @media(max-width: 991px) {
 
-    .navAlign.collapse.show{
+    .navAlign.collapse.show {
         display: flex;
         justify-content: left;
         flex-wrap: wrap;
     }
-    .navAlign.collapsing{
+
+    .navAlign.collapsing {
         display: flex;
         justify-content: left;
         flex-wrap: wrap;
@@ -57,7 +59,7 @@
 .nav-item {
     display: flex;
     align-items: flex-end;
-    
+
 }
 
 
@@ -80,7 +82,7 @@
 }
 
 
-.myDiv{
+.myDiv {
     background: #000324;
     opacity: 0.8;
     margin-top: 11%;
@@ -121,6 +123,7 @@
 .padddTop {
     padding-top: 12px;
 }
+
 .padMe {
     padding-top: 50px;
     font-size: 35px;
@@ -130,6 +133,7 @@
 .padBot {
     padding-bottom: 100px;
 }
+
 .paddBot {
     padding-bottom: 10px;
 }
@@ -209,12 +213,14 @@
 
 
 
+
 .bodyText20 {
     color: white;
     font-family: Source;
     font-size: 20px;
     font-weight: bold;
 }
+
 .bodyText35 {
     color: white;
     font-family: Dosis;
@@ -244,6 +250,7 @@
     background-color: #000324;
 
 }
+
 .bgBlack2 {
     background-color: #000324;
     padding-bottom: 50px;
@@ -251,7 +258,7 @@
 }
 
 .rAlign {
-text-align: center;
+    text-align: center;
 }
 
 .alignCenter {
@@ -268,7 +275,7 @@ text-align: center;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 }
 
 .rPad {
@@ -287,6 +294,7 @@ text-align: center;
     height: 385px;
     overflow: hidden;
 }
+
 .crop-container img {
     margin-top: -100px;
 
