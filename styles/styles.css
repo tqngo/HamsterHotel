@@ -142,6 +142,11 @@
     padding: 5px 5px 5px 5px;
 }
 
+.padMore {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 
 
 .cardAlign {
@@ -254,6 +259,7 @@ text-align: center;
     align-items: center;
     padding-bottom: 60px;
 }
+
 
 
 
