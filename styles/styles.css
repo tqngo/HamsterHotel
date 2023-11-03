@@ -71,10 +71,10 @@
 .bgHead {
     display: flex;
     background-image: url(/assets/header.jpg);
-    background-repeat: no-repeat;
+
     background-size: cover;
     background-position: center;
-    height: 500px;
+    height: 652px;
 
 }
 
@@ -82,7 +82,7 @@
 .myDiv{
     background: #000324;
     opacity: 0.8;
-    margin-top: 10%;
+    margin-top: 11%;
     padding-bottom: 3%;
 }
 
@@ -95,10 +95,6 @@
     height: 738px;
 }
 
-.paddingTop {
-    padding-top: 20px
-}
-
 .bgBottom {
     display: flex;
     background-image: url(/assets/bg.jpg);
@@ -106,6 +102,15 @@
     background-size: cover;
     background-position: center;
 
+}
+
+.paddingTop {
+    padding-top: 20px
+}
+
+.cardAlign {
+    display: flex;
+    align-items: center;
 }
 
 .padMe {
@@ -161,7 +166,12 @@
 
 }
 
-
+.bText16 {
+    color: #1A1B26;
+    font-family: Source;
+    font-size: 16px;
+    font-weight: bold;
+}
 
 
 
@@ -247,4 +257,9 @@ text-align: center;
 .crop-container img {
     margin-top: -100px;
 
+}
+
+.centerMe {
+    display: flex;
+    align-content: center;
 }
