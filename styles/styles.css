@@ -210,21 +210,19 @@
 
 }
 
-
-
-
-
 .bodyText20 {
     color: white;
     font-family: Source;
     font-size: 20px;
     font-weight: bold;
+    text-align: center;
 }
 
 .bodyText35 {
     color: white;
     font-family: Dosis;
     font-size: 35px;
+    text-align: center;
 }
 
 .bodyText45 {
@@ -257,18 +255,12 @@
 
 }
 
-.rAlign {
-    text-align: center;
-}
 
 .alignCenter {
-    display: flex;
-    align-items: center;
-    padding-bottom: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }
-
-
-
 
 .bgHamster {
     background-image: url(/assets/hamsterreserve.jpg);
@@ -299,8 +291,6 @@
     margin-top: -100px;
 
 }
-
-
 
 .cardB {
     border-radius: 0;
