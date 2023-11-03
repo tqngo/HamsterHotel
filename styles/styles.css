@@ -17,7 +17,7 @@
 
 .navBtns {
     color: white;
-    border: 2px solid #E5FEFF;
+    border: 1px solid #E5FEFF;
     opacity: 1;
     font: normal normal normal 20px/26px Dosis;
     letter-spacing: 0px;
@@ -81,8 +81,13 @@
 .myDiv {
     background: #000324;
     opacity: 0.8;
-    margin-top: 11%;
-    padding-bottom: 3%;
+    /* margin-top: 11%;
+    padding-bottom: 3%; */
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .bgBody {
@@ -299,4 +304,15 @@
 
 .margBot {
     margin-bottom: 125px;
+}
+
+
+
+.noHover:hover {
+    color: #E5FEFF;
+    border: solid 1px #E5FEFF;
+}
+
+.noHover:focus {
+    color: #E5FEFF;
 }
