@@ -14,7 +14,14 @@
     opacity: 1;
     font: normal normal normal 20px/26px Dosis;
 }
- 
+
+.navBtns {
+    color: white;
+    border: 2px solid #E5FEFF;
+    opacity: 1;
+    font: normal normal normal 20px/26px Dosis;
+    letter-spacing: 0px;
+} 
 
 .navAlign{
     display: flex;
@@ -50,17 +57,12 @@
 .nav-item {
     display: flex;
     align-items: flex-end;
+    
 }
 
 
 
-.navBtns {
-    color: white;
-    border: 2px solid #E5FEFF;
-    opacity: 1;
-    font: normal normal normal 20px/26px Dosis;
-    letter-spacing: 0px;
-}
+
 
 
 .navLink {
@@ -71,7 +73,6 @@
 .bgHead {
     display: flex;
     background-image: url(/assets/header.jpg);
-
     background-size: cover;
     background-position: center;
     height: 652px;
@@ -92,7 +93,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 738px;
+    min-height: 738px;
 }
 
 .bgBottom {
@@ -289,4 +290,9 @@ text-align: center;
 
 .padLeft {
     text-align: start;
+}
+
+.cardB {
+    border-radius: 0;
+    border: 0px;
 }
