@@ -15,10 +15,44 @@
     font: normal normal normal 20px/26px Dosis;
 }
  
-.navAlign {
+
+.navAlign{
     display: flex;
-    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
+
+.navAlign.collapse.show{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.navAlign.collapsing{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media(max-width: 991px) {
+
+    .navAlign.collapse.show{
+        display: flex;
+        justify-content: left;
+        flex-wrap: wrap;
+    }
+    .navAlign.collapsing{
+        display: flex;
+        justify-content: left;
+        flex-wrap: wrap;
+    }
+}
+
+.nav-item {
+    display: flex;
+    align-items: flex-end;
+}
+
+
 
 .navBtns {
     color: white;
@@ -119,6 +153,19 @@
 
 }
 
+.lText16 {
+    color: white;
+    font-family: Source;
+    font-size: 16px;
+    text-align: left;
+
+}
+
+
+
+
+
+
 .bodyText20 {
     color: white;
     font-family: Source;
@@ -191,3 +238,13 @@ text-align: center;
     flex-direction: row-reverse;
 }
 
+
+.crop-container {
+    width: 369px;
+    height: 385px;
+    overflow: hidden;
+}
+.crop-container img {
+    margin-top: -100px;
+
+}
